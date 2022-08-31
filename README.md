@@ -1,5 +1,10 @@
 # py2img
 The official GitHub repository for the Python source code to image converter.
+## Installation
+Installation is as simple as:
+```py
+pip install py2img
+```
 ## Why use py2img?
 py2img features stabile image en- or decoding and aims at converting Python source into pure images while also being able to safely execute them without writing any temporary files or other unneeded cache.
 ## How does it work?
