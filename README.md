@@ -32,14 +32,14 @@ Run main.py, and you should have an image saved like this:<br>
 So, now that we've converted our Python source code into an image, how do we make use of it?<br>
 It's very straight forward, simply call the decoder function as following:
 ```py
->>> import py2png
->>> py2png.decode.file('bar.png')
+>>> import py2img
+>>> py2img.decode.file('bar.png')
 print("Hello world from the image side!")
 ```
 #### Executing the image:
 ```py
->>> import py2png
->>> py2png.decode.exec('bar.png')
+>>> import py2img
+>>> py2img.decode.exec('bar.png')
 Hello world from the image side!
 ```
 
